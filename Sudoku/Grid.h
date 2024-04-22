@@ -44,7 +44,7 @@ class Grid
 
 		bool CheckGrid();
 
-		unsigned short int FindNumber(unsigned short int pArray[9]);
+		unsigned short int FindNumber(unsigned short int pArray[]);
 		std::unordered_map<unsigned short int, unsigned short int> map = 
 		{
 			{1,1},

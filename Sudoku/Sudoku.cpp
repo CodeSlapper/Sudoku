@@ -7,5 +7,6 @@ int main()
 {
     Grid test("Sudoku.txt");
     test.CheckRows();
+
     return 0;
 }

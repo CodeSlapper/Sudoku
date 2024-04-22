@@ -19,11 +19,18 @@ bool Grid::CheckRows()
 	return false;
 }
 
-unsigned short int Grid::FindNumber(unsigned short int pArray[9])
+unsigned short int Grid::FindNumber(unsigned short int pArray[])
 {
+	unsigned short int Num = 9;
 	for (int i = 0; i < 9; i++)
 	{
-
+		for (int j = 0; j < 9; j++)
+		{
+			if (pArray[i]==0)
+			{
+				bool exists = std::find(std::begin(pArray), std::end(pArray), j) != std::end(pArray);
+			}
+		}
 	}
 	return 1;
 }

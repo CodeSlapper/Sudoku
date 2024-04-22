@@ -1,4 +1,68 @@
 ﻿  Grid.cpp
-  Sudoku.cpp
-  Generating Code...
-  Sudoku.vcxproj -> C:\Users\Christos\Documents\CPP Guide\Sudoku\x64\Debug\Sudoku.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56): error C2794: 'value_type': is not a member of any direct or indirect base class of 'std::iterator_traits<_InIt>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56): error C2794:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56): error C2794:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56): error C2794:             _InIt=unsigned short
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56): error C2794:         ]
+  (compiling source file 'Grid.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1063,56):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Christos\Documents\CPP Guide\Sudoku\Sudoku\Grid.cpp(31,24):
+  	see reference to function template instantiation '_InIt std::find<unsigned short,int>(_InIt,const _InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=unsigned short,
+              _Ty=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5817,36):
+  	see reference to function template instantiation '_InIt std::_Find_unchecked<_InIt,_Ty>(_InIt,const _InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=unsigned short,
+              _Ty=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5687,49):
+  	see reference to alias template instantiation 'std::_Iter_value_t<_InIt>' being compiled
+          with
+          [
+              _InIt=unsigned short
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5687,49): error C2938: 'std::_Iter_value_t' : Failed to specialize alias template
+  (compiling source file 'Grid.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5770,19): error C2976: 'std::_Vector_alg_in_find_is_safe': too few template arguments
+  (compiling source file 'Grid.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5688,28):
+  see declaration of 'std::_Vector_alg_in_find_is_safe'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5770,58): error C2059: syntax error: ')'
+  (compiling source file 'Grid.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5770,60): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Grid.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5780,37): error C2672: '__std_find_trivial': no matching overloaded function found
+  (compiling source file 'Grid.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(115,6):
+  could be '_Ty *__std_find_trivial(_Ty *,_Ty *,const _TVal) noexcept'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5780,37):
+  	'_Ty *__std_find_trivial(_Ty *,_Ty *,const _TVal) noexcept': could not deduce template argument for '_Ty *' from 'const _Iter'
+          with
+          [
+              _Iter=unsigned short
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5780,24): error C2737: '_Result': const object must be initialized
+  (compiling source file 'Grid.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5784,34): error C3536: '_Result': cannot be used before it is initialized
+  (compiling source file 'Grid.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5803,13): error C2100: you cannot dereference an operand of type '_InIt'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5803,13): error C2100:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5803,13): error C2100:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5803,13): error C2100:             _InIt=unsigned short
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5803,13): error C2100:         ]
+  (compiling source file 'Grid.cpp')
+  
