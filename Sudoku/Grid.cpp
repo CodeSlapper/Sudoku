@@ -21,16 +21,22 @@ bool Grid::CheckRows()
 
 unsigned short int Grid::FindNumber(unsigned short int pArray[])
 {
-	unsigned short int Num = 9;
+	std::unordered_map< unsigned short int,std::string> KnownNumbers;
+	std::vector< unsigned short int> candidates;
 	for (int i = 0; i < 9; i++)
 	{
-		for (int j = 0; j < 9; j++)
+		if (pArray[i] != 0)
 		{
-			if (pArray[i]==0)
-			{
-				bool exists = std::find(std::begin(pArray), std::end(pArray), j) != std::end(pArray);
-			}
+			KnownNumbers[pArray[i]] = "K" + std::to_string(i);
 		}
 	}
+	for (int i = 1; i < 10; i++)
+	{
+		if (KnownNumbers.count(i)==0)
+		{
+			candidates.push_back(i);
+		}
+	}
+	int paus = 0;
 	return 1;
 }
